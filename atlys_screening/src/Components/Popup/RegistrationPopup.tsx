@@ -36,7 +36,7 @@ const RegisterPopup = ({ switchToLogin }: IRegister) => {
       // Redirect to login after 5 seconds
       setTimeout(() => {
         switchToLogin();
-      }, 5000);
+      }, 2000);
     }
   };
 
